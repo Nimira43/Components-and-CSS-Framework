@@ -138,4 +138,103 @@ a {
     text-decoration: none;
 }
 
-ul
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.btn {
+    cursor: pointer;
+    color: var(--white);
+    background: var(--prime-500);
+    border: transparent;
+    border-radius: var(--border-radius);
+    letter-spacing: var(--letter-spacing);
+    padding: 0.375rem 0.75rem;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: var(--prime-700);
+    box-shadow: var(--shadow-3);
+}
+
+.btn-dark {
+    color: var(--white);
+    background-color: var(--black-2);
+}
+
+.btn-dark:hover {
+    color: var(--white);
+    background-color: var(--black-1);
+}
+
+.btn-red {
+    color: var(--white);
+    background-color: var(--red-md);
+}
+
+.btn-red:hover {
+    color: var(--white);
+    background-color: var(--red-dk);
+}
+
+.btn-blue {
+    color: var(--white);
+    background-color: var(--blue-md);
+}
+
+.btn-blue:hover {
+    color: var(--white);
+    background-color: var(--blue-dk);
+}
+
+.btn-yellow {
+    color: var(--text-colour);
+    background-color: var(--yellow-md);
+}
+
+.btn-yellow:hover {
+    color: var(--text-colour);
+    background-color: var(--yellow-dk);
+}
+
+.btn-green {
+    color: var(--white);
+    background-color: var(--green-md);
+}
+
+.btn-green:hover {
+    color: var(--white);
+    background-color: var(--green-dk);
+}
+
+.btn-light {
+    color: var(--text-colour);
+    background-color: var(--white);
+}
+
+.btn-light:hover {
+    color: var(--white);
+    background-color: var(--grey-100);
+}
+
+.btn-special {
+    color: var(--prim-500);
+    background-color: var(--black-2);
+}
+
+.btn-special:hover {
+    color: var(--black-2);
+    background-color: var(--prim-500);
+}
+
