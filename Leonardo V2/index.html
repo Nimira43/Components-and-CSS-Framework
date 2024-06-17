@@ -28,20 +28,53 @@
     <a href="#">Contact</a>
     <a href="#">Blog</a>
 
-    <button class="btn">Dark</button>
-    <button class="btn">Light</button>
+    <button class="btn btn-dark">Dark</button>
+    <button class="btn btn-light">Light</button>
     <button class="btn">Primary</button>
-    <button class="btn">Secondary</button>
+    <button class="btn btn-red">red</button>
+    <button class="btn btn-blue">blue</button>
+    <button class="btn btn-green">green</button>
+    <button class="btn btn-yellow">yellow</button>
+    <button class="btn btn-special">special</button>
+    <button class="alert alert-danger">Red Alert</button>
+    <button class="alert alert-success">Green Alert</button>
     <h2>Hello</h2>
-    <button class="btn">Special</button>
-    <button class="btn">Other</button>
     <h2>Hello</h2>
     <h3>Hello</h3>
     <h4>Hello</h4>
     <h5>Hello</h5>
     <h6>Hello</h6>
     <p class="text-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum reiciendis iusto corporis sed! Placeat sint eligendi quisquam, dolorem optio veniam!</p>
+    <br>
+    <br>
+    <div>
+        <form class="form">
+            <h4 class="title">contact form</h4>
+            <div class="title-underline"></div>
+            <div class="form-row">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" placeholder="hello there" id="name" class="form-input" />
+            </div>
+            <div class="form-row">
+                <label for="number" class="form-label">Number</label>
+                <input type="number" id="number" class="form-input" />
+            </div>
+            <div class="form-row">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" />
+                <small class="form-alert">please provide value</small>
+            </div>
+            <div class="form-row">
+                <label for="textarea" class="form-label">Textarea</label>
+                <textarea class="form-textarea">
+                    Default Value
+                </textarea>
+            </div>
+            <button type="submit" class="btn btn-block">submit</button>
+        </form>
+        <div class="loading"></div>
 
+    </div>
 </body>
 
 </html>
