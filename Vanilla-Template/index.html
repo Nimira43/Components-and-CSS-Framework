@@ -5,12 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./images/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="leonardo-v2.css">
-    <title></title>
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/normalise.css">
+    <link rel="stylesheet" href="./css/leonardo-v2.css">
+    <script src="./js/script.js" defer></script>
+    <title>Leonardo V2 CSS Framework</title>
 </head>
+
 <body>
-    
+    <img src="./images/icon.png" class="img">
+    <h1 class="title">Leonardo V2 CSS</h1>
+    <p class="text-small title">by Nimira Tech</p>
+    <div class="loading"></div>
+    <div>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn">Primary</button>
+    </div>
+    <div>
+        <button class="btn btn-block btn-red">red</button>
+        <button class="btn btn-block btn-blue">blue</button>
+        <button class="btn btn-block btn-green">green</button>
+        <button class="btn btn block btn-yellow">yellow</button>
+        <button class="btn btn-special">special</button>
+        <button class="alert alert-danger">Red Alert</button>
+        <button class="alert alert-success">Green Alert</button>
+    </div>
+    <div>
+        <h1>Hello</h1>
+        <h2>Hello</h2>
+        <h3>Hello</h3>
+        <h4>Hello</h4>
+        <h5>Hello</h5>
+        <h6>Hello</h6>
+    </div>    
+    <div>
+        <form class="form" hidden>
+            <h4 class="title">contact form</h4>
+            <div class="title-underline"></div>
+            <div class="form-row">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" placeholder="hello there" id="name" class="form-input" />
+            </div>
+            <div class="form-row">
+                <label for="number" class="form-label">Number</label>
+                <input type="number" id="number" class="form-input" />
+            </div>
+            <div class="form-row">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" />
+                <small class="form-alert">please provide value</small>
+            </div>
+            <div class="form-row">
+                <label for="textarea" class="form-label">Textarea</label>
+                <textarea class="form-textarea">
+                    Default Value
+                </textarea>
+            </div>
+            <button type="submit" class="btn btn-block">submit</button>
+        </form>
+    </div>
 </body>
+
 </html>
