@@ -1,3 +1,5 @@
+@import url('../css/leonardo-v2.css');
+
 nav {
     background-color: var(--yellow-lg);
     height: 4rem;
@@ -39,3 +41,28 @@ nav a:hover {
     color: var(--prime-500);
 }
 
+main {
+    height: calc(100vh - 4rem);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    background: var(--black-1);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2.5rem;
+    letter-spacing: var(--letter-spacing);
+    font-weight: 200;
+}
+
+.colour {
+    text-transform: lowercase;
+    font-weight: 500;
+    color: var(--yellow-md)
+}

@@ -242,6 +242,17 @@ ul {
     background-color: var(--prime-500);
 }
 
+.btn-hero {
+    background: transparent;
+    color: var(--black-1);
+    border: 1px solid var(--black-1);
+}
+
+.btn-hero:hover {
+    color: var(--white);
+    background: var(--black-1);
+}
+
 .btn-block {
     width: 100%;
 }
